@@ -1,0 +1,481 @@
+:root {
+    --color-first: rgb(78, 78, 78);
+    --color-secand: rgb(0, 120, 255);
+    --font-first:
+}
+
+
+.img {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5)), url(../images/images01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.three {
+    background-image: linear-gradient(rgb(0, 120, 255, 0.5)), url(../images/images03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.five {
+    background-image: linear-gradient(rgb(0, 120, 255, 0.5)), url(../images/images10.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.seven {
+    background-image: linear-gradient(rgb(0, 120, 255, 0.5)), url(../images/images10.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color:
+        rgb(0, 98, 211)
+}
+
+nav:hover {
+    color: #fff !important;
+}
+
+
+.animation::after {
+    content: "|";
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    animation: move 6s infinite 1s;
+}
+
+
+.blog::after {
+    content: "";
+    border: solid 3px rgb(0, 120, 255);
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+    text-align: center;
+    right: 45%;
+    margin-bottom: -10px;
+
+}
+
+
+h5.send::after {
+    content: "";
+    position: absolute;
+    border-bottom: solid 3px rgb(0, 120, 255);
+    width: 20%;
+    bottom: 0;
+    left: 10px;
+
+
+}
+
+h5.get::after {
+    content: "";
+    position: absolute;
+    border-bottom: solid 3px rgb(0, 120, 255);
+    width: 20%;
+    bottom: 0;
+    left: 10px;
+
+
+}
+
+
+.pro::after {
+    content: "";
+    border: solid 3px rgb(0, 120, 255);
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+    text-align: center;
+    right: 45%;
+    margin-bottom: -10px;
+
+
+}
+h5.pro::after{
+       content: "";
+    border: solid 3px rgb(0, 120, 255);
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+    text-align: center;
+    left:0;
+    margin-bottom: -10px;
+}
+
+
+
+.nav-link.active{
+    padding: 2px;
+    text-decoration: underline;
+    transition: all 0.3;
+}
+
+    .carousel-indicators [data-bs-target] {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #fff;}
+
+
+        .carousel-indicators .active {
+      background-color: #333;
+    }
+
+
+@keyframes move {
+    0% {
+        content: "designer  |";
+    }
+
+    2% {
+        content: "designer |";
+    }
+
+    4% {
+        content: "designer|";
+
+    }
+
+    6% {
+        content: "designe|";
+    }
+
+    8% {
+        content: "   |";
+    }
+
+    10% {
+        content: "d|";
+    }
+
+    12% {
+        content: "de |";
+    }
+
+    14% {
+        content: "des|";
+    }
+
+    16% {
+        content: "desi |";
+    }
+
+    18% {
+        content: "desig |";
+    }
+
+    20% {
+        content: "design |";
+    }
+
+    22% {
+        content: "designe |";
+    }
+
+    24% {
+        content: "designer |";
+    }
+
+    26% {
+        content: "designer |";
+    }
+
+    28% {
+        content: "designer|";
+    }
+
+    30% {
+        content: "designe|";
+    }
+
+    32% {
+        content: "design|";
+    }
+
+    34% {
+        content: "desig|";
+    }
+
+
+    36% {
+        content: "desi|";
+    }
+
+    38% {
+        content: "des|";
+    }
+
+    40% {
+        content: "de |";
+    }
+
+    42% {
+        content: "de |";
+    }
+
+    44% {
+        content: "dev |";
+    }
+
+    46% {
+        content: "deve|";
+    }
+
+    48% {
+        content: "devel|";
+    }
+
+    50% {
+        content: "develo|";
+    }
+
+    52% {
+        content: "develop|";
+    }
+
+    54% {
+        content: "develope|";
+
+    }
+
+    56% {
+        content: "developer|";
+    }
+
+    58% {
+        content: "developer|";
+    }
+
+    60% {
+        content: "develope|";
+    }
+
+
+
+    62% {
+        content: "develop|";
+    }
+
+
+    64% {
+        content: "develo|";
+    }
+
+    68% {
+        content: "devel|";
+    }
+
+    70% {
+        content: "deve|";
+    }
+
+
+    72% {
+        content: "dev|";
+    }
+
+
+    74% {
+        content: "de|";
+    }
+
+
+    78% {
+        content: "d|";
+    }
+
+    80% {
+        content: "|";
+    }
+
+
+    82% {
+        content: "f|";
+    }
+
+
+
+    84% {
+        content: "fr|";
+    }
+
+
+    86% {
+        content: "fre|";
+    }
+
+
+
+    88% {
+        content: "free|";
+    }
+
+
+    90% {
+        content: "freel|";
+    }
+
+    92% {
+        content: "freela|";
+    }
+
+
+    94% {
+        content: "freelan|";
+    }
+
+    95% {
+        content: "freelanc|";
+    }
+
+    96% {
+        content: "freelance|";
+    }
+
+    97% {
+        content: "freelancer|";
+    }
+
+
+
+    100% {
+        content: "freelancer |";
+    }
+
+
+}
+
+
+.five {
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+}
+
+
+
+
+.scale {
+    transition: all 3s;
+    transition: all 0, 5;
+}
+
+img.scale:hover {
+    transform: scale(1.1)
+}
+
+
+
+.hover {
+    border: 7px rgb(0, 120, 255) solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+}
+
+span.hover:hover {
+    background-color: rgb(0, 120, 255);
+    border: solid rgb(205, 225, 248) 7px;
+    color: white;
+
+}
+
+.height-about {
+    line-height: 35px;
+}
+
+.pr::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 120, 255);
+    bottom: 0;
+    left: 0;
+    width: 70%;
+    height: 20px;
+
+}
+
+.pr::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 120, 255);
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 20px;
+
+}
+
+
+.pr::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 120, 255);
+    bottom: 0;
+    left: 0;
+    width: 40%;
+    height: 20px;
+
+}
+
+
+
+
+.pr::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 120, 255);
+    bottom: 0;
+    left: 0;
+    width: 80%;
+
+
+}
+
+
+.ha::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 6, 6);
+    top: 0;
+    bottom: 0;
+
+}
+
+/* 
+.arrow::after{
+    content: "";
+    position: fixed;
+   
+    right:0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0;
+    background-color: rgb(0, 120, 255);
+} */
+
+
+.arrow i{
+    position: fixed;
+    right:0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0;
+    background-color: rgb(0, 120, 255);
+}
